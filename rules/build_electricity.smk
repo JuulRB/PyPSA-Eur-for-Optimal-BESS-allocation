@@ -356,7 +356,6 @@ rule build_hydro_profile:
     script:
         "../scripts/build_hydro_profile.py"
 
-
 rule build_line_rating:
     params:
         snapshots=config_provider("snapshots"),
